@@ -1,3 +1,8 @@
 package com.example.sistemasconsultas.dto;
 
-public record MedicoDTO(){}
+public record MedicoDTO(
+
+        String nome,
+        String crm,
+        Long especialidadeId
+){}
