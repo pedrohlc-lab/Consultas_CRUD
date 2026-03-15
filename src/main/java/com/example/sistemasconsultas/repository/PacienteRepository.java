@@ -1,4 +1,7 @@
 package com.example.sistemasconsultas.repository;
 
-public class PacienteRepository {
+import com.example.sistemasconsultas.model.Paciente;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PacienteRepository extends JpaRepository<Paciente, Long> {
 }
