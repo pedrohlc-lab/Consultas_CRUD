@@ -6,9 +6,11 @@ import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 public record PacienteRequestDTO(
-       @NotBlank String nome,
-       @NotBlank String cpf,
-       @NotBlank String email,
-       @NotBlank String telefone,
-       @NotNull LocalDate nascimento
+        @NotBlank String nome,
+        @NotBlank  String cpf,
+        @NotBlank  String email,
+        @NotBlank  LocalDate nascimento,
+        @NotNull  String telefone
+
+
 ){}

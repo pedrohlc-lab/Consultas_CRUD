@@ -24,7 +24,7 @@ public class MedicoController {
     }
 
     @GetMapping
-    public ResponseEntity<List<MedicoResponseDTO>> findAll() {
+    public ResponseEntity<List<MedicoResponseDTO>> listar() {
         var lista = medicoService.listarTodosMedicos();
         return ResponseEntity.ok().body(lista);
 
@@ -37,7 +37,7 @@ public class MedicoController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> Deletar(@PathVariable Long id) {
+    public ResponseEntity<Void> deletar(@PathVariable Long id) {
         medicoService.DeletarMedico(id);
         return ResponseEntity.noContent().build();
     }
