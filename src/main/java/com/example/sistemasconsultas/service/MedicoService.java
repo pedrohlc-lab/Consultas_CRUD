@@ -93,6 +93,7 @@ public class MedicoService {
         medico.setNome(dadosMedico.nome());
         medico.setCrm(dadosMedico.crm());
         medico.setEspecialidade(especialidade.get());
+
         return new  MedicoResponseDTO(
                 medico.getId(),
                 medico.getNome(),
