@@ -8,9 +8,9 @@ import jakarta.persistence.Table;
 import lombok.Data;
 import java.util.List;
 
-@Entity
-@Table(name = "Especialidade")
 @Data
+@Entity
+@Table(name = "especialidade")
 public class Especialidade {
 
     @Id

@@ -25,6 +25,9 @@ public class Paciente {
     private String telefone;
 
     @Column(nullable = false)
+    private String cpf;
+
+    @Column(nullable = false)
     private LocalDate nascimento;
 
 

@@ -2,8 +2,8 @@ package com.example.sistemasconsultas.dto;
 
 import java.time.LocalDate;
 
-public record PacienteDTO(
-
+public record PacienteResponseDTO(
+        Long id,
         String nome,
         String cpf,
         String email,

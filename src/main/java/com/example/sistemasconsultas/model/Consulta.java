@@ -21,7 +21,7 @@ public class Consulta {
 
     @ManyToOne
     @JoinColumn(name = "medico_id", nullable = false)
-    Paciente Medico;
+    Medico Medico;
 
     @Column(nullable = false)
     private LocalDateTime dataHora;
