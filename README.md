@@ -37,7 +37,7 @@ Este projeto é um sistema de gerenciamento de consultas desenvolvido com Java e
 
   Estrutura do Projeto
 
-O projeto foi estruturado de forma simples e entendível, evitando complexidades desnecessárias:
+O projeto foi estruturado de forma simples e entendível:
 
     controller: Camada de entrada (endpoints da API).
 
